@@ -19,15 +19,15 @@
         </div>
         <nav id="nav">
             <ul>
-                <li><a href="#inicio">INICIO</a></li>
-                <li><a href="#sobremi">SOBRE MI</a></li>
-                <li><a href="#skills">SKILLS</a></li>
-                <li><a href="#curriculum">CURRICULUM</a></li>
-                <li><a href="#portfolio">PORTFOLIO</a></li>
-                <li><a href="#contacto">CONTACTO</a></li>
+                <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
             </ul>
         </nav>
-        <div class="nav-responsive">
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
             <i class="fa-solid fa-bars"></i>
 
         </div>
@@ -44,10 +44,9 @@
         <h1>IVÁN BEVAQUA</h1>
         <h2>UX Researcher | FrontEnd </h2>
         <div class="redes">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
             <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
             <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-
         </div>
     </div>
 </section>
@@ -57,7 +56,7 @@
 <section id="sobremi" class="sobremi">
     <div class="contenido-seccion">
         <h2>Sobre mí</h2>
-        <p><span>Hola, soy Iván Bevaqua.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae commodi dolore facilis ut sapiente vel mollitia libero excepturi et possimus ipsum accusantium error voluptate, est fugiat doloremque consequuntur hic nihil.
+        <p><span>Hola, soy Iván Bevaqua.</span> Tengo 26 años, soy UX Researcher y programador web con background en educación primaria. Me gusta aprender diferentes tecnologías.
         </p>
 
 <div class="fila">
@@ -106,14 +105,7 @@
                 <i class="fa-solid fa-palette"></i>
                 <span>PINTAR</span>
             </div>
-            <div class="interes">
-                <i class="fa-solid fa-wreath-laurel"></i>
-                <span>MITOLOGÍA</span>
-            </div>
-            <div class="interes">
-                <i class="fa-solid fa-podcast"></i>
-                <span>PODCASTS</span>
-            </div>
+            
         </div>
     </div>
 </div>
@@ -136,10 +128,10 @@
             <div class="col">
                 <h3>Technical Skills</h3>
                 <div class="skill">
-                    <span>Javascript</span>
+                    <span>Figma</span>
                     <div class="barra-skill">
                         <div class="progreso">
-                            <span>30%</span>
+                            <span>70%</span>
                         </div>
                     </div>
                 </div>
@@ -160,10 +152,10 @@
                     </div>
                 </div>
                 <div class="skill">
-                    <span>Figma</span>
+                    <span>Javascript</span>
                     <div class="barra-skill">
                         <div class="progreso">
-                            <span>70%</span>
+                            <span>30%</span>
                         </div>
                     </div>
                 </div>
@@ -220,28 +212,28 @@
             <div class="col izquierda">
                 <h3>Educación</h3>
                 <div class="item izq">
-                    <h4>Arte y Multimedia</h4>
-                    <span class="casa">Universidad de Oxford</span>
-                    <span class="fecha">2005 - 2008</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                    <h4>Diplomatura en UX</h4>
+                    <span class="casa">Centro de formación profesional de Tierra del Fuego</span>
+                    <span class="fecha">2022</span>
+                    <p>Diplumatura en la que recorrimos todas las técnicas de UX y, al finalizar, fuimos parte de diversos proyectos.</p>
                     <div class="conectori">
                         <div class="circuloi"></div>
                     </div>
                 </div>
                 <div class="item izq">
-                    <h4>Arte y Multimedia</h4>
-                    <span class="casa">Universidad de Oxford</span>
-                    <span class="fecha">2005 - 2008</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                    <h4>Programador Full Stack Web</h4>
+                    <span class="casa">Argentina Programa</span>
+                    <span class="fecha">2021-2023</span>
+                    <p>Curso de programación dividido en dos etapas, ambas superadas y completadas. El proyecto final fue la creación de un portfolio web con FrontEnd y Backend.</p>
                     <div class="conectori">
                         <div class="circuloi"></div>
                     </div>
                 </div>
                 <div class="item izq">
-                    <h4>Arte y Multimedia</h4>
-                    <span class="casa">Universidad de Oxford</span>
-                    <span class="fecha">2005 - 2008</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                    <h4>Testing manual, ágil y con herramientas</h4>
+                    <span class="casa">UTN</span>
+                    <span class="fecha">Actualmente cursando</span>
+                    <p>Curso dictado por la UTN orientado al testing.</p>
                     <div class="conectori">
                         <div class="circuloi"></div>
                     </div>
@@ -254,25 +246,25 @@
                     <h4>Proyecto de UX | Aplicación</h4>
                     <span class="casa">Centro profesional de Tierra del fuego</span>
                     <span class="fecha">2022</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                    <p>Nuestro equipo tuvo la gran oportunidad de trabajar junto a gente de MACHI, una ONG de salud. Junto a ellos investigamos, diseñamos y testeamos una aplicación orientada a niños con autismo no verbal.</p>
                     <div class="conectord">
                         <div class="circulod"></div>
                     </div>
                 </div>
                 <div class="item der">
-                    <h4>Proyecto de UX | Aplicación</h4>
-                    <span class="casa">Centro profesional de Tierra del fuego</span>
-                    <span class="fecha">2022</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                    <h4>Profesor de apoyo primario | Auxiliar pedagógico</h4>
+                    <span class="casa">Ministerio de Educación</span>
+                    <span class="fecha">2021 - 2022</span>
+                    <p>Empecé trabajando como auxiliar en colonias de verano. Tiempo después pude dar clases de apoyo a niños de nivel primario.</p>
                     <div class="conectord">
                         <div class="circulod"></div>
                     </div>
                 </div>
                 <div class="item der">
-                    <h4>Proyecto de UX | Aplicación</h4>
-                    <span class="casa">Centro profesional de Tierra del fuego</span>
+                    <h4>Auxiliar Turístico</h4>
+                    <span class="casa">Parque Nacional de Tierra del fuego</span>
                     <span class="fecha">2022</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                    <p> Orientado al turismo, estaba encargado de guiar y cobrar a todos los visitantes del parque. Sean extranjeros o residentes.</p>
                     <div class="conectord">
                         <div class="circulod"></div>
                     </div>
@@ -290,14 +282,14 @@
             <div class="proyecto">
                 <img src="./assets/Proyecto.png" alt="">
                 <div class="overlay">
-                    <h3>Aplicación en MACHI</h3>
+                    <h3>Aplicación con MACHI</h3>
                     <p>UX|UI</p>
                 </div>
             </div>
             <div class="proyecto">
                 <img src="./assets/Proyecto2.png" alt="">
                 <div class="overlay">
-                    <h3>Portfolio Front y Back</h3>
+                    <h3>Portfolio web Front y Back</h3>
                     <p>Argentina Programa</p>
                 </div>
             </div>
@@ -341,6 +333,21 @@
         </div>
     </div>
 </section>
+
+<!-- Footer -->
+
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+    </div>
+</footer>
+
+<script src="script.js"> </script>
 
 </body>
 </html>
